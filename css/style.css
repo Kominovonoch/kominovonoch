@@ -189,3 +189,118 @@ footer {
         align-items: flex-start;
     }
 }
+
+```css
+/* Scores Page */
+
+.scores-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 30px;
+}
+
+.scores-intro {
+    max-width: 650px;
+    font-size: 1.15rem;
+    margin-bottom: 80px;
+}
+
+.score-section {
+    margin-bottom: 90px;
+}
+
+.score-section h2 {
+    margin-bottom: 40px;
+}
+
+.score {
+    border-top: 1px solid #d6d3cc;
+    padding: 30px 0;
+}
+
+.score h3 {
+    font-size: 1.7rem;
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+.score-info {
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.65;
+    margin-bottom: 20px;
+}
+
+.tribute {
+    font-style: italic;
+    margin: 0 0 8px;
+    opacity: 0.75;
+}
+
+
+/* The Sounds of Sorrow */
+
+.collection-section {
+    margin-bottom: 90px;
+}
+
+.score-collection {
+    border-top: 1px solid #1d1d1d;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+.score-collection summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.score-collection summary::-webkit-details-marker {
+    display: none;
+}
+
+.score-collection summary::after {
+    content: "+";
+    position: absolute;
+    right: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.score-collection[open] summary::after {
+    content: "−";
+}
+
+.score-collection {
+    position: relative;
+}
+
+.collection-title {
+    font-size: 2.2rem;
+}
+
+.collection-subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    opacity: 0.6;
+}
+
+.collection-content {
+    padding-bottom: 20px;
+}
+
+.collection-description {
+    max-width: 650px;
+    margin: 10px 0 30px;
+    font-style: italic;
+    opacity: 0.8;
+}
+```
