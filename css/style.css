@@ -194,9 +194,9 @@ footer {
 /* Scores Page */
 
 .scores-page {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 100px;
+    padding: 100px 60px;
 }
 
 .scores-intro {
