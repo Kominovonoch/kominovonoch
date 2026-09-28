@@ -304,13 +304,3 @@ footer {
     opacity: 0.8;
 }
 ```
-/* Scores page positioning fix */
-main > .scores-page {
-    width: auto;
-    max-width: 1000px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 60px !important;
-    padding-right: 60px !important;
-    box-sizing: border-box;
-}
