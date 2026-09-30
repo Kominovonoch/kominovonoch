@@ -303,4 +303,8 @@ footer {
     font-style: italic;
     opacity: 0.8;
 }
+
+.collection-section h2 {
+    margin-bottom: 40px;
+}
 ```
